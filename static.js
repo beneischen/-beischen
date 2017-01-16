@@ -4,7 +4,8 @@ window.onload = function() {
     
     var pageWidth = ($("#firstPost").width());
 
-    var thresholdWidth = 800; 
+    alert(pageWidth);
+    var thresholdWidth = 800;
 
     if (pageWidth <= thresholdWidth){
     	// change the width of all inner divs to 100%
