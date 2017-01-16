@@ -1,9 +1,44 @@
-.outer-div
-{
-     padding: 30px;
+@font-face {
+    font-family: 'Cabin';
+    src: URL('../fonts/Cabin-Regular.ttf') format ('ttf');
+    font-weight: normal;
+	font-style: normal;
 }
-.inner-div
-{
-     margin: 0 auto;
-     width: 100px; 
+
+
+body {
+  font-family: 'Cabin', "Cabin-Regular", sans-serif; margin: 0; padding: 0; border: 0;
+}
+
+.outer-div{
+     background-color: #f2f9ff; margin: 0; padding: 0; border: 0;
+}
+
+.inner-div{
+     margin: auto;
+     width: 35%; 
+     background-color: #fbfdff;
+     border:1px solid #d8d8d8;
+}
+
+.image-div{
+	border: 5px;
+	width:100%;
+}
+
+.icon-div{
+	float: left;
+	padding-left: 8px;
+	width: 35px; 
+	height: 35px;
+
+}
+
+.header-div{
+	float: left;
+	padding-left: 30px;
+	padding-top: 2px;
+	width: 250px; 
+	height: 48px;
+
 }
