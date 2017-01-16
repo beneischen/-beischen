@@ -11,11 +11,7 @@ window.onload = function() {
     if (pageWidth <= thresholdWidth){
     	// change the width of all inner divs to 100%
     	$(".inner-div").css("width", "90%");
-    	
-    	var currentFontSize = $(".inner-div").css('font-size');
-		var currentFontSizeNum = parseFloat(currentFontSize, 10);
-	    var newFontSize = currentFontSizeNum*1.4;
-	    $(".inner-div").css('font-size', newFontSize);
+    	$(".inner-div").css('font-size', 22);
 
     	bigFont = true;
     }
@@ -28,10 +24,7 @@ window.onload = function() {
 	    	$(".inner-div").css("width", "45%" );
 
 	    	if (bigFont == true) {
-		    	var currentFontSize = $(".inner-div").css('font-size');
-			    var currentFontSizeNum = parseFloat(currentFontSize, 10);
-			    var newFontSize = currentFontSizeNum*0.8;
-			    $(".inner-div").css('font-size', newFontSize);
+			    $(".inner-div").css('font-size', 16);
 			    bigFont = false;
 		    }
 	    }
@@ -41,10 +34,7 @@ window.onload = function() {
 	    	$(".inner-div").css("width", "90%" );
 
 	    	if (bigFont == false) {
-		    	var currentFontSize = $(".inner-div").css('font-size');
-			    var currentFontSizeNum = parseFloat(currentFontSize, 10);
-			    var newFontSize = currentFontSizeNum*1.4;
-			    $(".inner-div").css('font-size', newFontSize);
+			    $(".inner-div").css('font-size', 22);
 			    bigFont = true;
 		    }
 	    }
