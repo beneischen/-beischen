@@ -4,12 +4,11 @@ window.onload = function() {
     
     var pageWidth = ($("#firstPost").width());
 
-    alert(pageWidth);
-    var thresholdWidth = 800;
+    var thresholdWidth = 1000;
 
     if (pageWidth <= thresholdWidth){
     	// change the width of all inner divs to 100%
-    	$(".inner-div").css("width", "100%");
+    	$(".inner-div").css("width", "90%");
     }
     
     $( window ).bind("resize", function(){
@@ -22,7 +21,7 @@ window.onload = function() {
 
 	    else if (pageWidth <= thresholdWidth) {
 	    	// Change width when pageWidth is less than or equal to threshold pixels
-	    	$(".inner-div").css("width", "100%" );	
+	    	$(".inner-div").css("width", "90%" );	
 	    }
 
 	});
