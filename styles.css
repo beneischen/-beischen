@@ -1,13 +1,8 @@
-@font-face {
-    font-family: 'Cabin';
-    src: URL('../fonts/Cabin-Regular.ttf') format ('ttf');
-    font-weight: normal;
-	font-style: normal;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 body {
-  font-family: 'Cabin', "Cabin-Regular", sans-serif; margin: 0; padding: 0; border: 0;
+  font-family: 'Open Sans', "Open Sans", sans-serif; margin: 0; padding: 0; border: 0;
 }
 
 .outer-div{
@@ -19,6 +14,7 @@ body {
      width: 35%; 
      background-color: #fbfdff;
      border:1px solid #d8d8d8;
+     word-wrap: break-word;
 }
 
 .image-div{
@@ -37,8 +33,7 @@ body {
 .header-div{
 	float: left;
 	padding-left: 30px;
-	padding-top: 2px;
-	width: 250px; 
-	height: 48px;
+	width: auto; 
+	height: auto;
 
 }
